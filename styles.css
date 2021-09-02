@@ -32,7 +32,7 @@ nav > span {
     padding-right:7vw;
 }
 
-.logo_align > img {
+.logo_align > a > img {
     width: 4%;
     height: 4%;
     padding:20px;
@@ -94,6 +94,11 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: rgb(34, 86, 165);
+    cursor: pointer;
+}
+
 #second_section {
     width: 100%;
     display: block;
@@ -137,7 +142,7 @@ button {
 }
 
 .grid_box {
-    width: 33%;
+    width: 33.3333%;
     align-items: center;
     text-align: center;
     padding: 3rem;
@@ -203,4 +208,66 @@ button {
     font-size: 1.5em;
     font-weight: lighter;
     color: whitesmoke;
+}
+
+#fourth_section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    display: block;
+    background-color: white;
+}
+
+.fourth_section_grouping {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth_section_img {
+    width: 100%;
+}
+
+.fourth_section_img > img {
+    width: 100%;
+}
+
+.fourth_section_input {
+    width: 80%;
+}
+
+.fourth_section_input > p {
+    font-weight: bolder;
+    padding: 10px 0px 10px 0px;
+}
+
+.fourth_section_input > h2 {
+    font-weight: lighter;
+    font-size: 2.5em;
+}
+
+.fourth_section_input > span {
+    color: whitesmoke;
+}
+
+.input_block {
+    width: 100%;
+    display: inline;
+}
+
+.submit {
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(20, 133, 194);
+}
+
+.text {
+    padding: 10px 80px 10px 20px;
+    border-radius: 30px;
+    border: 1px solid;
 }
